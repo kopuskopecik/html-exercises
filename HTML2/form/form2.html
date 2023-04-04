@@ -105,7 +105,34 @@
             </tr>
           </table>
         </fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+            <legend>Adressdaten</legend>
+            <table>
+              <tr>
+                <td><label for="firma">Firma</label></td>
+                <td><input type="text" id="firma" required /></td>
+              </tr>
+              <tr>
+                <td><label for="firma2">Zusatz Firma</label></td>
+                <td><input type="text" id="firma2" placeholder="optional" /></td>
+              </tr>
+              <tr>
+                <td><label for="url">Homepage</label></td>
+                <td>
+                  <input type="url" id="url" placeholder="optional" />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="adressee">Adresse</label> / <label for="nummer">Haus Nr</label></td>
+                <td><input type="text" id="adressee" placeholder="Musterstrasse" /> <input width="10px" type="number" id="nummer" placeholder="33" /></td>
+              </tr>
+              <tr>
+                <td><label for="adressee2">Zusatz Adresse</label></td>
+                <td><input type="text" id="adressee2" /></td>
+              </tr>
+            </table>
+          </fieldset>
+
       </form>
     </main>
   </body>
