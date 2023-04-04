@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Profil</h1>
+      <h3>Hier konnen Sie Ihre Adresse-Angaben einsehen and anpassen</h3>
+      <hr />
+      <form action="">
+        <fieldset>
+          <legend>Personliche Daten</legend>
+          <table>
+            <tr>
+              <td><label for="title">Title</label></td>
+              <td><input type="text" id="title" /></td>
+            </tr>
+            <tr>
+              <td><label for="vorname">Vorname</label></td>
+              <td><input type="text" id="vorname" /></td>
+            </tr>
+            <tr>
+              <td><label for="nachname">Nachname</label></td>
+              <td><input type="text" id="nachname" /></td>
+            </tr>
+            <tr>
+              <td>Geschlect</td>
+              <td>
+                <input
+                  type="radio"
+                  id="geschlect1"
+                  name="geschlect"
+                  value="W"
+                />
+                <label for="geschlect1">W</label><br />
+                <input
+                  type="radio"
+                  id="geschlect2"
+                  name="geschlect"
+                  value="M"
+                />
+                <label for="geschlect2">M</label><br />
+              </td>
+            </tr>
+            <tr>
+              <td>Sprache</td>
+              <td>
+                <input
+                  type="checkbox"
+                  id="sprache1"
+                  name="sprache1"
+                  value="IT"
+                />
+                <label for="sprache1"> IT</label><br />
+                <input
+                  type="checkbox"
+                  id="sprache2"
+                  name="sprache2"
+                  value="DE"
+                />
+                <label for="sprache2"> DE</label><br />
+                <input
+                  type="checkbox"
+                  id="sprache3"
+                  name="sprache3"
+                  value="FR"
+                />
+                <label for="sprache3"> FR</label><br />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Kontaktdaten</legend>
+          <table>
+            <tr>
+              <td><label for="telefon">Telefon</label></td>
+              <td><input type="tel" id="telefon" required /></td>
+            </tr>
+            <tr>
+              <td><label for="mobile">Mobile</label></td>
+              <td><input type="tel" id="mobile" placeholder="optional" /></td>
+            </tr>
+            <tr>
+              <td><label for="hauptnummer">Hauptnummer</label></td>
+              <td>
+                <input type="tel" id="hauptnummer" placeholder="optional" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="fax">Fax</label></td>
+              <td><input type="tel" id="fax" placeholder="optional" /></td>
+            </tr>
+            <tr>
+              <td><label for="mail1">Mail 1</label></td>
+              <td><input type="email" id="mail1" /></td>
+            </tr>
+            <tr>
+              <td><label for="mail2">Mail 2</label></td>
+              <td><input type="email" id="mail2" placeholder="optional" /></td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset></fieldset>
+      </form>
+    </main>
+  </body>
+</html>
